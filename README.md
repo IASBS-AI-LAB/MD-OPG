@@ -24,3 +24,26 @@ figures/             # Supplementary plots (loss and Dice score plots per 3 loss
 README.md
 
 ---
+📊 Supplementary Figures
+Training curves (loss and Dice score) for all six segmentation experiments are included in the figures/ directory:
+
+UNet
+Focal Loss
+
+Dice Loss
+
+Dice + Focal Loss
+
+Attention UNet
+Focal Loss
+
+Dice Loss
+
+Dice + Focal Loss
+
+----
+
+🤝 Contributions
+All authors have contributed to data curation, model development, experimentation, and analysis.
+
+For questions, feel free to open an issue or contact us at the provided email.
