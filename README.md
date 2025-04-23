@@ -19,7 +19,16 @@ We evaluate the performance of standard deep learning models using various loss 
 ## 📁 Repository Structure
 
 ```bash
-classification/      # Code for classification using ResNet-18
-segmentation/        # Code for segmentation using UNet and Attention-UNet
-figures/             # Supplementary plots (loss and Dice score for all experiments)
+classification/      # Code for classification task using pretrained ResNet-18 (Keras) + patch extraction code for training this model
+segmentation/        # Code for segmentation using UNet and Attention-UNet + extracting smile zone images code for this models
+figures/             # Supplementary plots (loss and Dice score plots per 3 loss experiments for both segmentation models)
 README.md
+
+
+/figures/
+├── unet_focal.png
+├── unet_dice.png
+├── unet_dicefocal.png
+├── attentionunet_focal.png
+├── attentionunet_dice.png
+├── attentionunet_dicefocal.png
