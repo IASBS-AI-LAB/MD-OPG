@@ -30,6 +30,7 @@ figures/             # Supplementary plots (loss and Dice score plots per 3 loss
 Training curves (loss and Dice score) for all six segmentation experiments are included in the figures/ directory:
 
 **UNet**
+
 Focal Loss
 
 Dice Loss
@@ -48,7 +49,7 @@ Dice + Focal Loss
 
 ## 📥 Dataset Access
 
-Due to GitHub's file size limitations, the full dataset is hosted externally at **Dataset_link** file, which is linked to Google Drive.
+Due to GitHub's file size limitations, the full dataset is hosted externally at the **"Dataset_link"** file, which is linked to Google Drive.
 
 ----
 
