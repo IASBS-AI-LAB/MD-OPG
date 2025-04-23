@@ -20,15 +20,16 @@ We evaluate the performance of standard deep learning models using various loss 
 
 ```bash
 classification/      # Code for classification task using pretrained ResNet-18 (Keras) + patch extraction code for training this model
-segmentation/        # Code for segmentation using UNet and Attention-UNet + extracting smile zone images code for this models
+segmentation/        # Code for segmentation using UNet and Attention-UNet (Torch) + extracting smile zone images code for these models
 figures/             # Supplementary plots (loss and Dice score plots per 3 loss experiments for both segmentation models)
 README.md
 
+---
 
 /figures/
-├── unet_focal.png
-├── unet_dice.png
-├── unet_dicefocal.png
-├── attentionunet_focal.png
-├── attentionunet_dice.png
-├── attentionunet_dicefocal.png
+├── Unet_dice.png
+├── Unet_DiceFocel.png
+├── Unet_focal.png
+├── att_unet_focal.png
+├── att_unet_dice.png
+├── att_unet_DiceFocal.png
