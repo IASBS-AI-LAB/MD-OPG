@@ -1,10 +1,10 @@
 # Detection of Pediatric Dental Caries in Panoramic Radiographs Using Artificial Intelligence: A Benchmark Study on MD-OPG
 
-**Authors**: *Hadi Rahimi*, *Mohammad-rasoul Naeimi*, *Parvin Razzaghi*, *Bahare Nazemi*, *Shayan Darvish*
+**Authors**: *
 
-**Affiliation**: Institute for Advanced Studies in Basic Sciences (IASBS), Zanjan University of Medical Sciences (ZUMS), University of Michigan  
+**Affiliation**:  
 
-**Contact**: [Hadirahimi@iasbs.ac.ir, hadi.rahimi7171@gmail.com] ,[p.razzaghi@iasbs.ac.ir] , 
+**Contact**: 
 
 
 ---
