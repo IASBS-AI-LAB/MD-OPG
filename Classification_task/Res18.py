@@ -44,11 +44,6 @@ tf.config.experimental.set_memory_growth(physical_devices[0], True)
 patch = np.load('/.../AUG_patch_64_conca.npy')
 label = np.load('/.../AUG_patch_64_all_labels.npy')
 
-################################################################################
-                           #LEFT_CC CNN MODEL#
-################################################################################
-
-
 y = np.array(label)
 X = np.array(patch)
 ########################################################
@@ -58,18 +53,13 @@ total = num_0 + num_1
 ########################################################
 #y_one_hot = to_categorical(label_left_cc)
 y_one_hot = np.array(label)
-########################################################
 match = list(zip(X, y_one_hot))
 random.shuffle(match)
 X, y_one_hot = zip(*match)
 X = np.array(X)
 y_one_hot = np.array(y_one_hot)
 ########################################################
-"""
-y_integers = np.argmax(y_one_hot, axis=1)
-class_weights = compute_class_weight(class_weight='balanced',classes=np.unique(y_integers), y=y_integers)
-d_class_weights = dict(enumerate(class_weights))
-"""
+
 X_tr, X_test, y_tr, y_test = train_test_split(X, y_one_hot, test_size=0.2, random_state=42,stratify=y_one_hot)
 y_test = to_categorical(y_test)
 
@@ -94,7 +84,7 @@ print("########################")
 
 
 ################################################################################
-                           #left_cc CNN MODEL#
+                          
 ################################################################################
 def datagenerator(images, labels, batchsize, mode="train"):
     while True:
