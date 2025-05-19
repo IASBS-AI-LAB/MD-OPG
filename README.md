@@ -29,7 +29,7 @@ figures/             # Supplementary plots (loss and Dice score plots per 3 loss
 ## 📊 Supplementary Figures
 Training curves (loss and Dice score) for all six segmentation experiments are included in the figures/ directory:
 
-**UNet**
+**UNet:**
 
 Focal Loss
 
@@ -37,7 +37,7 @@ Dice Loss
 
 Dice + Focal Loss
 
-**Attention UNet**
+**Attention UNet:**
 
 Focal Loss
 
